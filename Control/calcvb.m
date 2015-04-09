@@ -2,7 +2,7 @@ function [vB] = calcvb(alpha,polarPlot,thetaWind)
 
 %[~,N] = size(polarPlot);
 %thetas = polarPlot(1,:);
-velocities = polarPlot(2,:)
+velocities = polarPlot(2,:);
 
 vBmag = velocities(alpha+1);
 
